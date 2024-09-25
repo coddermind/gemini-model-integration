@@ -18,10 +18,13 @@ To run this project locally, you'll need to have Python installed.
    git clone https://github.com/your-username/gemini-model-integration.git
    cd gemini-model-integration
 
-2. Install the dependencies:
+2. Update the streamlit-app.py file:
+   Update it by replacing the sentence "your api key" with your actual api key you generated from the google cloud
+
+3. Install the dependencies:
    ```bash
    pip install -r requirements.txt
 
-3. Run the streamlit app:
+4. Run the streamlit app:
    ```bash
    streamlit run streamlit-app.py
