@@ -3,7 +3,7 @@ import google.generativeai as genai
 import streamlit as st
 
 # Configure Gemini AI API key
-genai.configure(api_key="AIzaSyDiD2uaAgrBrWqx3K5HqLH2xaGAm4AIZoo")  # Replace with your actual API key
+genai.configure(api_key="your api key")  # Replace with your actual API key
 
 # Function to extract text from a PDF file
 def extract_text_from_pdf(pdf_file):
